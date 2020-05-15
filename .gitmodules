@@ -1,0 +1,3 @@
+[submodule "husky_child_repo"]
+	path = husky_child_repo
+	url = git@github.com:yousan/husky_child_repo.git
