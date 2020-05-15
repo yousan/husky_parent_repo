@@ -24,4 +24,5 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - run: ls husky_child_repo
     - run: git submodule update && cd husky_child_repo && npm ci && git commit --allow-empty -m 'Dummy commit at child repo'
