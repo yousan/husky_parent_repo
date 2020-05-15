@@ -24,4 +24,4 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: cd husky_child_repo; git status
+    - run: cd husky_child_repo; git status; echo "hello world"
